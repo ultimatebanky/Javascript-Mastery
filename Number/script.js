@@ -42,3 +42,11 @@ if (isRight) {
  
 const age = 20;
 console.log(age < 19)
+
+const age1 = 20
+
+if (age1 < 20) {
+    console.log("i am 15 years old")
+}else{
+    console.log(" i am 20 years old")
+}
