@@ -32,3 +32,6 @@ console.log(typeof arr)
 
 const date = new Date();
 console.log(typeof date);
+
+const arr2 = ["Apple", "Orange", "Pawpaw", "Banana"]
+console.log(typeof arr2)
