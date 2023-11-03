@@ -40,8 +40,8 @@ if (isRight) {
     console.log("You're not the rightful owner of the project.");
 }
  
-const age = 20;
-console.log(age < 19)
+// const age = 20;
+// console.log(age < 19)
 
 const age1 = 20
 
@@ -50,3 +50,40 @@ if (age1 < 20) {
 }else{
     console.log(" i am 20 years old")
 }
+
+const birth = 30;
+
+if (birth < 30) {
+    console.log("I'm older")
+}else {
+    console.log("I'm not older")
+}
+
+// NULL 
+// Null has only one value 
+let age = null;
+
+// AND UNDEFINED:
+let x;
+
+console.log(typeof age)
+
+// OBJECTS : is a collection of data type or variable
+
+const person = {
+    name: "Jane",
+    age: 20,
+}
+console.log(typeof person);
+
+// Dot(.)notation
+// to get a specific value from the variable then we introduce dot notification.
+console.log(typeof person.name);
+console.log(person.age);
+
+// ARRAY
+const arr = [1, 2, 3, 4];
+console.log(arr);
+
+const date = new Date();
+console.log(date);
